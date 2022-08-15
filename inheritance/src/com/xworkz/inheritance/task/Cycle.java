@@ -1,11 +1,11 @@
 package com.xworkz.inheritance.task;
 
 public class Cycle {
-	int noOfWheels;
-	int noOfBreaks;
-	boolean handle;
-	boolean shockAbsorber;
-	int noOfMudGuards;
+	public int noOfWheels;
+	public int noOfBreaks;
+	public boolean handle;
+	public boolean shockAbsorber;
+	public int noOfMudGuards;
 
 	public Cycle(int noOfWheels, int noOfBreaks, boolean handle, boolean shockAbsorber, int noOfMudGuards) {
 		this.noOfWheels = noOfWheels;

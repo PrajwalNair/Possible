@@ -1,11 +1,11 @@
 package com.xworkz.inheritance.task;
 
 public class Browser {
-	String name;
-	String website;
-	boolean open;
-	String owned;
-	double ipAddress;
+	public String name;
+	public String website;
+	public boolean open;
+	public String owned;
+	public double ipAddress;
 
 	public Browser(String name, String website, boolean open, String owned, double ipAddress) {
 		this.name = name;

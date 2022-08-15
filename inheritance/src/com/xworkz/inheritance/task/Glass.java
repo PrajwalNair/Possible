@@ -1,11 +1,11 @@
 package com.xworkz.inheritance.task;
 
 public class Glass {
-	double price;
-	String shape;
-	boolean reflection;
-	String type;
-	String material;
+	public double price;
+	public String shape;
+	public boolean reflection;
+	public String type;
+	public String material;
 
 	public Glass(double price, String shape, boolean reflection, String type, String material) {
 		this.price = price;

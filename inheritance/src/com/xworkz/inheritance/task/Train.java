@@ -1,11 +1,11 @@
 package com.xworkz.inheritance.task;
 
 public class Train {
-	String stationName;
-	int noOfCoaches;
-	int noOfSeats;
-	double platformTicket;
-	int noOfStations;
+	public String stationName;
+	public int noOfCoaches;
+	public int noOfSeats;
+	public double platformTicket;
+	public int noOfStations;
 
 	public Train(String stationName, int noOfCoaches, int noOfSeats, double platformTicket, int noOfStations) {
 		this.stationName = stationName;

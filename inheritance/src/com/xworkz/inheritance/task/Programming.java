@@ -1,11 +1,11 @@
 package com.xworkz.inheritance.task;
 
 public class Programming {
-	boolean language;
-	String nameOfLanguage;
-	double version;
-	int inventedYear;
-	String platform;
+	public boolean language;
+	public String nameOfLanguage;
+	public double version;
+	public int inventedYear;
+	public String platform;
 
 	public Programming(boolean language, String nameOfLanguage, double version, int inventedYear, String platform) {
 		this.language = language;
