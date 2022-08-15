@@ -6,7 +6,7 @@ public class IntegerInvoke {
 
 		// Creating instances
 
-		Integer integer = new Integer(12);
+		Integer integer =new Integer(15);
 
 		Integer integer1 = new Integer("15");
 		System.out.println(integer1);
