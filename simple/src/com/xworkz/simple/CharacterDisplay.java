@@ -4,6 +4,7 @@ public class CharacterDisplay {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		//Creating instance
 		
 		Character ch = new Character('H');

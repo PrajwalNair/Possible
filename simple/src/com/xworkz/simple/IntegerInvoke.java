@@ -6,7 +6,7 @@ public class IntegerInvoke {
 
 		// Creating instances
 
-		Integer integer =new Integer(15);
+		Integer integer = new Integer(15);
 
 		Integer integer1 = new Integer("15");
 		System.out.println(integer1);
@@ -18,9 +18,6 @@ public class IntegerInvoke {
 
 		// Integer name = integer.getInteger("1256");
 		// System.out.println(name);
-
-		// Integer name1 = integer.parseInt("123");
-		// System.out.println(name1);
 
 		Integer name2 = integer.intValue();
 		System.out.println(name2);
@@ -68,19 +65,19 @@ public class IntegerInvoke {
 
 		Integer e = Integer.valueOf("14");
 		System.out.println(e);
-		
+
 		Integer f = Integer.compare(15, 10);
 		System.out.println(f);
-		
+
 		Integer g = Integer.bitCount(25);
 		System.out.println(g);
-		
+
 		Integer h = Integer.divideUnsigned(5, 4);
 		System.out.println(h);
-		
+
 		Integer i = Integer.lowestOneBit(14);
 		System.out.println(i);
-		
+
 		Integer j = Integer.max(2, 5);
 		System.out.println(j);
 
