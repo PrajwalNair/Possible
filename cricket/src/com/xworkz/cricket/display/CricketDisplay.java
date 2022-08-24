@@ -22,7 +22,7 @@ public class CricketDisplay {
 		TestCricket c = new TestCricket();
 		double p = c.presentation();
 		System.out.println(p);
-		c.setGroundType("");
+		c.setGroundType("Green pitch");
 
 		T20Cricket cri = new T20Cricket();
 		System.out.println(cri.entertainment());
