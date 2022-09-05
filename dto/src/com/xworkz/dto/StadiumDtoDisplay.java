@@ -1,15 +1,15 @@
 package com.xworkz.dto;
 
-import com.xworkz.dto.data.StadiumDto;
+import com.xworkz.dto.data.StadiumDTO;
 
 public class StadiumDtoDisplay {
 
 	public static void main(String[] args) {
-		StadiumDto s = new StadiumDto();
+		StadiumDTO s = new StadiumDTO();
 		s.setName("Motera");
 		s.setCountry("India");
 
-		StadiumDto s1 = new StadiumDto();
+		StadiumDTO s1 = new StadiumDTO();
 		s1.setName("Motera");
 		s1.setCountry("India");
 
