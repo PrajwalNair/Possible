@@ -8,5 +8,7 @@ public class NatureDto implements Serializable {
 	private boolean vehicles;
 	private boolean twoWheelers;
 	private boolean fourWheelers;
+	private int noOfTwoWheelers;
+	private int noOfFourWheelers;
 
 }
