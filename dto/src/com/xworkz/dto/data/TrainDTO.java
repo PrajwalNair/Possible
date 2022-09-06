@@ -69,19 +69,20 @@ public class TrainDTO implements Serializable {
 			System.out.println("it is not null");
 			if (obj instanceof TrainDTO) {
 				TrainDTO c = (TrainDTO) obj;
-				if (c.fan == (this.fan) && c.ac == (this.ac) && c.typeOfAc == (this.typeOfAc)
-						&& c.priceOfAc == (this.priceOfAc) && c.securityName == (this.securityName)
-						&& c.security == (this.security) && c.noOfchairs == (this.noOfchairs)
-						&& c.noOfDoors == (this.noOfDoors) && c.noOfFans == (this.noOfFans)
-						&& c.noOfTables == (this.noOfTables) && c.noOfLights == (this.noOfLights)
-						&& c.noOfRooms == (this.noOfRooms) && c.priceOfChairs == (this.priceOfChairs)
-						&& c.priceOfTables == (this.priceOfTables) && c.priceOfFans == (this.priceOfFans)
-						&& c.priceOfWindow == (this.priceOfWindow)) {
-					System.out.println(this.fan + " & " + this.ac + " & " + this.typeOfAc + " & " + this.priceOfAc
-							+ " & " + this.securityName + " & " + this.security + " & " + this.noOfchairs + " & "
-							+ this.noOfDoors + " & " + this.noOfFans + " & " + this.noOfTables + " & " + this.noOfLights
-							+ " & " + this.priceOfAc + " & " + this.priceOfChairs + " & " + this.priceOfTables + " & "
-							+ this.priceOfFans + " & " + this.priceOfWindow);
+				if (c.brand == (this.brand) && c.type == (this.type) && c.TrainNo == (this.TrainNo)
+						&& c.wayOfTransport == (this.wayOfTransport) && c.noOfPassengers == (this.noOfPassengers)
+						&& c.noOfWheels == (this.noOfWheels) && c.source == (this.source)
+						&& c.destination == (this.destination) && c.noOfMirrors == (this.noOfMirrors)
+						&& c.widthOfMirror == (this.widthOfMirror) && c.heightOfMirror == (this.heightOfMirror)
+						&& c.thicknessOfMirror == (this.thicknessOfMirror) && c.noOfCoaches == (this.noOfCoaches)
+						&& c.sleeperCoach == (this.sleeperCoach) && c.noOfSeats == (this.noOfSeats)
+						&& c.widthOfTrain == (this.widthOfTrain)) {
+					System.out.println(
+							this.brand + " & " + this.type + " & " + this.TrainNo + " & " + this.wayOfTransport + " & "
+									+ this.noOfPassengers + " & " + this.noOfWheels + " & " + this.source + " & "
+									+ this.destination + " & " + this.noOfMirrors + " & " + this.noOfMirrors + " & "
+									+ this.widthOfMirror + " & " + this.heightOfMirror + " & " + this.thicknessOfMirror
+									+ " & " + this.noOfCoaches + " & " + this.sleeperCoach + " & " + this.noOfSeats);
 					return true;
 				} else {
 					System.err.println("it is not equal");
