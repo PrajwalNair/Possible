@@ -1,8 +1,4 @@
-package com.xworkz.interfaces.classes;
-
-import com.xworkz.interfaces.HRRules;
-import com.xworkz.interfaces.ManagerRules;
-import com.xworkz.interfaces.SecurityRules;
+package com.xworkz.interfaces;
 
 public class ITRuleFollower implements HRRules, SecurityRules, ManagerRules {
 	@Override

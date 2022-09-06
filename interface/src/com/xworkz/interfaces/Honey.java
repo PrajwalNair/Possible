@@ -1,6 +1,4 @@
-package com.xworkz.interfaces.classes;
-
-import com.xworkz.interfaces.HoneyRules;
+package com.xworkz.interfaces;
 
 public class Honey implements HoneyRules {
 

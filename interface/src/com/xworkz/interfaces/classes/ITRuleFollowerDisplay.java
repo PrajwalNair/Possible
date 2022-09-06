@@ -1,6 +1,7 @@
 package com.xworkz.interfaces.classes;
 
 import com.xworkz.interfaces.HRRules;
+import com.xworkz.interfaces.ITRuleFollower;
 import com.xworkz.interfaces.ManagerRules;
 import com.xworkz.interfaces.SecurityRules;
 
