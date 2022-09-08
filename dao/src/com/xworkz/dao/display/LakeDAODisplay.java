@@ -1,6 +1,6 @@
-package com.xworkz.dao;
+package com.xworkz.dao.display;
 
-import com.xworkz.dao.implementor.LakeDAOImplementor;
+import com.xworkz.dao.LakeDAOImplementor;
 
 public class LakeDAODisplay {
 
@@ -12,7 +12,7 @@ public class LakeDAODisplay {
 		dao.save("Ulsoor Lake");
 		dao.printAll();
 		System.out.println("--------------");
-		dao.delete(0);
+		dao.delete(2);
 		System.out.println("--------------");
 		dao.printAll();
 		System.out.println("--------------");
