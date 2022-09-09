@@ -10,13 +10,11 @@ public class LakeDAODisplay {
 		dao.save("Unakal Lake");
 		dao.save("Agara Lake");
 		dao.save("Ulsoor Lake");
+
 		dao.printAll();
-		System.out.println("--------------");
-		dao.delete(2);
-		System.out.println("--------------");
+		dao.updateByName("Unakal Lake", "Nirsagar");
 		dao.printAll();
-		System.out.println("--------------");
-		dao.update(2, "Lal Bhagh lake");
+		dao.delete("BTM Lake");
 		dao.printAll();
 
 	}

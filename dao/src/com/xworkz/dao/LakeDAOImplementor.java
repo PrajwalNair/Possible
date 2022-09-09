@@ -3,15 +3,16 @@ package com.xworkz.dao;
 public class LakeDAOImplementor implements LakeDAO {
 
 	private String[] lakeNames = new String[10];
+	private int index;
 
 	@Override
 	public boolean save(String lakeName) {
-		for (int i = 0; i < lakeNames.length; i++) {
-			if (lakeNames[i] == null) {
-				lakeNames[i] = lakeName;
-				System.out.println("lakes");
-				return true;
-			}
+
+		if (index < lakeNames.length) {
+			this.lakeNames[index] = lakeName;
+			index++;
+			System.out.println(lakeName);
+
 		}
 		return false;
 	}
@@ -26,15 +27,41 @@ public class LakeDAOImplementor implements LakeDAO {
 	}
 
 	@Override
-	public void delete(int index) {
-		lakeNames[index] = null;
-
+	public boolean delete(int index) {
+		for (int i = 0; i < lakeNames.length; i++) {
+			lakeNames[i] = null;
+		}
+		return true;
 	}
 
 	@Override
-	public void update(int index, String lakeName) {
+	public boolean update(int index, String lakeName) {
 		lakeNames[index] = lakeName;
+		return true;
+	}
 
+	@Override
+	public boolean updateByName(String name, String newName) {
+		for (int i = 0; i > lakeNames.length; i++) {
+			if (lakeNames[i] == name) {
+				name = newName;
+				return true;
+
+			}
+
+		}
+		return false;
+	}
+
+	@Override
+	public boolean delete(String name) {
+		for (int i = 0; i < lakeNames.length; i++) {
+			if (lakeNames[i] == name) {
+				name = null;
+			}
+		}
+
+		return false;
 	}
 
 }

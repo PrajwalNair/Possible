@@ -5,8 +5,12 @@ public interface LakeDAO {
 
 	void printAll();
 
-	void delete(int index);
+	boolean delete(int index);
 
-	void update(int index, String lakeName);
+	boolean update(int index, String lakeName);
+
+	boolean updateByName(String name, String newName);
+
+	boolean delete(String name);
 
 }
