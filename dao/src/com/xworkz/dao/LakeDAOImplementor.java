@@ -42,9 +42,10 @@ public class LakeDAOImplementor implements LakeDAO {
 
 	@Override
 	public boolean updateByName(String name, String newName) {
-		for (int i = 0; i > lakeNames.length; i++) {
+		for (int i = 0; i < lakeNames.length; i++) {
+
 			if (lakeNames[i] == name) {
-				name = newName;
+				lakeNames[i] = newName;
 				return true;
 
 			}
@@ -57,7 +58,7 @@ public class LakeDAOImplementor implements LakeDAO {
 	public boolean delete(String name) {
 		for (int i = 0; i < lakeNames.length; i++) {
 			if (lakeNames[i] == name) {
-				name = null;
+				lakeNames[i] = null;
 			}
 		}
 
