@@ -16,7 +16,7 @@ public class CasinoServiceImpl implements CasinoService {
 		if (name != null && name.length() > 3 && name.length() < 50) {
 			if (this.casinoDao.checkName(name)) {
 				System.out.println("name is present");
-				return true;
+				return casinoDao.save(name);
 			} else {
 				System.out.println("name is not present");
 			}
