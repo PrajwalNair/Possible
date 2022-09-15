@@ -16,15 +16,16 @@ public class PrimeMinisterDisplay {
 		PrimeMinisterService ministerService = new PrimeMinisterServiceImpl(dao);
 		try {
 			ministerService.checkAndValidate("Narendra Modi");
-			ministerService.checkAndValidate("Atal bihari bajapai");
-			ministerService.checkAndValidate("Atal bihari bajapa");
-			ministerService.checkAndValidate("Atal bihari bajap");
-			ministerService.checkAndValidate("Atal bihari baja");
-			ministerService.checkAndValidate("Atal bihari baj");
-			ministerService.checkAndValidate("Atal bihari ba");
+			ministerService.checkAndValidate("Atal Bihari Vajpayee");
+			ministerService.checkAndValidate("H D Devegowda");
+			ministerService.checkAndValidate("Chandra Shekhar");
+			ministerService.checkAndValidate("V P Singh");
+			ministerService.checkAndValidate("Lal Bahadur Shastri");
+			ministerService.checkAndValidate("Jawahar Lal Nehru");
 
 		} catch (InvalidNameException ine) {
 			ine.getMessage();
+			ine.getClass();
 		} catch (InvalidCheckIndexException icie) {
 			icie.getMessage();
 		}
