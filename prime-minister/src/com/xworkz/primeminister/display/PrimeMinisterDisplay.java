@@ -28,6 +28,7 @@ public class PrimeMinisterDisplay {
 			ine.getClass();
 		} catch (InvalidCheckIndexException icie) {
 			icie.getMessage();
+			icie.getClass();
 		}
 
 	}
