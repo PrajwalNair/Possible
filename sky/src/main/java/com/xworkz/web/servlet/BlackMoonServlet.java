@@ -18,6 +18,9 @@ public class BlackMoonServlet extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		System.out.println("service is provided");
+		
+		
+		
 		res.setContentType("text/html");
 		PrintWriter writer=res.getWriter();
 		writer.append("<html>\r\n"
