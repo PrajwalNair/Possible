@@ -56,7 +56,8 @@ public class CompanyServlet extends HttpServlet {
 		.append("</html>");
 		
 		CompanyDTO dto = new CompanyDTO(name,company,since,employees,address,business);
-		dtos.add(dto);
+		boolean d = dtos.add(dto);
+		System.out.println(d);
 		
 	}
 	
