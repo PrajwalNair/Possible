@@ -6,15 +6,15 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
+<body background="C:\Users\Dell\Desktop\prajwal git\Possible\prime\src\main\webapp\images.jpg">
 <h1>Save success page</h1>
-${Name}
-${Country}
-${Marriage}
-${Party}
-${Age}
-${Gender}
-${Period}
-${Times}
+Name: ${Name}<br>
+Country :${Country}<br>
+Marriage Status :${Marriage}<br>
+Party :${Party}<br>
+Age :${Age}<br>
+Gender :${Gender}<br>
+Period :${Period}<br>
+Times :${Times}<br>
 </body>
 </html>

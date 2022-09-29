@@ -5,9 +5,12 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Details of prime ministers</title>
+
 </head>
-<body>
-<a href ="show">Show</a>
+
+<body background="C:\Users\Dell\Desktop\prajwal git\Possible\prime\src\main\webapp\images.jpg">
+<a href ="Success.jsp"> Show Success</a>
+
 <form action="primeMinister" method = "post">
 Name:<input type="text" id="name" name="name"><br>
 Country:<select name="country">
@@ -26,7 +29,7 @@ Marriage Status:
 <br>
 
 Party:
-<select name="Party">
+<select name="party">
 		<option>----Select Party----</option>
 		<option value = "BJP">BJP</option>
 		<option value ="JDS">JDS</option>
