@@ -5,6 +5,12 @@ import com.xworkz.cricket.parent.Cricket;
 public class OneDayCricket extends Cricket {
 	public String bestBowler;
 	public String bestBatsman;
+	public String keeper;
+	
+	@Override
+	public void main(String[] args) {
+		System.out.println("this is a main method");
+	}
 
 	public void setBestBowler(String bestBowler) {
 		this.bestBowler = bestBowler;
@@ -34,5 +40,11 @@ public class OneDayCricket extends Cricket {
 		System.out.println("entertainment in ODI" + "------ (ODI class)");
 		return true;
 	}
+	
+	@Override
+	public void first() {
+		System.out.println("this is ODI");
+	}
+	
 
 }

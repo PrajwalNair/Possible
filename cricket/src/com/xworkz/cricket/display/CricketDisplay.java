@@ -6,18 +6,23 @@ import com.xworkz.cricket.child.TestCricket;
 import com.xworkz.cricket.parent.Cricket;
 
 public class CricketDisplay {
+	
 
 	public static void main(String[] args) {
 		OneDayCricket cr = new OneDayCricket();
+		cr.first();
+		String [] arg = {"Prajwal"};
+		cr.main(arg);
+		
 		boolean e = cr.entertainment();
 		System.out.println(e + "===");
 		cr.setCaptain("MS Dhoni");
 		cr.setCountry("India");
 		cr.setGender('M');
 		cr.presentation();
-		cr.setBestBowler("Jasprith bumrah");
-		cr.setBestBatsman("Rohit Sharma");
-		System.out.println(cr.manOfTheSeries());
+//		cr.setBestBowler("Jasprith bumrah");
+//		cr.setBestBatsman("Rohit Sharma");
+//		System.out.println(cr.manOfTheSeries());
 
 		TestCricket c = new TestCricket();
 		double p = c.presentation();
@@ -27,7 +32,9 @@ public class CricketDisplay {
 		T20Cricket cri = new T20Cricket();
 		System.out.println(cri.entertainment());
 		System.out.println(cri.manOfTheMatch());
+		
 
 	}
+	
 
 }

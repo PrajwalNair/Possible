@@ -7,4 +7,12 @@ public interface PubRules {
 
 	boolean validProof();
 
+	default int age (int age) {
+		return 0;
+	}
+	
+	static void print () {
+		
+	}
+	
 }
