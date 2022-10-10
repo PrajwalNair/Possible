@@ -1,6 +1,7 @@
 package com.xworkz.coin;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class StateDisplay {
@@ -35,7 +36,7 @@ public class StateDisplay {
 		list.add("Uttarakhand");
 		list.add("Uttar Pradesh");
 		list.add("West Bengal");
-
+		
 		
 
 		list.forEach((ref) -> System.out.println("state name :" + ref));// all states are displayed
@@ -63,7 +64,7 @@ public class StateDisplay {
 		list.stream().forEach((ref) -> System.out.println(new StringBuffer().append(ref).reverse()));
 		System.out.println("---------------");
 
-		list.stream().distinct().forEach((ref) -> System.out.println(ref));
+		list.stream().distinct().forEach((ref)->System.out.println(ref));
 
 	}
 
