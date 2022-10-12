@@ -20,23 +20,11 @@ public class HouseDTO implements Serializable{
 	System.out.println("default constructor");
 	}
 	
-	
-
-	
-
-
-
 	@Override
 	public String toString() {
 		return "HouseDTO [id=" + id + ", name=" + name + ", owner=" + owner + ", type=" + type + ", noOfFloors="
 				+ noOfFloors + ", loan=" + loan + ", owningType=" + owningType + ", sqft=" + sqft + "]";
 	}
-
-
-
-
-
-
 
 	public HouseDTO(Integer id, String name, String owner, Type type, Integer noOfFloors, Boolean loan,
 			OwningType owningType, Double sqft) {

@@ -11,7 +11,7 @@ public class HouseDisplay {
 
 	public static void main(String[] args) {
 		
-		HouseDTO houseDTO1 = new HouseDTO(1, "Chiguru", "Honey", Type.VILLA, 2, true, OwningType.OWN, 2500.0);
+		HouseDTO houseDTO1 = new HouseDTO(1, "Chiguru", "Honey", Type.APPARTMENT, 2, true, OwningType.LEASE, 2500.0);
 		HouseDTO houseDTO2 = new HouseDTO(17, "Doddamane", "Chandru", Type.APPARTMENT, 4, false, OwningType.LEASE, 3000.0);
 		HouseDTO houseDTO3 = new HouseDTO(3, "Ganapa", "Suhas", Type.VILLA, 2, true, OwningType.RENT, 2000.0);
 		HouseDTO houseDTO4 = new HouseDTO(4, "Duniya Runa", "Dharshan", Type.INDIVIDUAL, 1, false, OwningType.RENT, 1500.0);

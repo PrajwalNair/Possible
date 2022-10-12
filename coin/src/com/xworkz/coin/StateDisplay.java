@@ -3,6 +3,8 @@ package com.xworkz.coin;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 public class StateDisplay {
 
@@ -65,6 +67,10 @@ public class StateDisplay {
 		System.out.println("---------------");
 
 		list.stream().distinct().forEach((ref)->System.out.println(ref));
+		System.out.println("---------------");
+		
+//		StringBuffer ref = new StringBuffer();
+//		list.stream().ref.
 
 	}
 
