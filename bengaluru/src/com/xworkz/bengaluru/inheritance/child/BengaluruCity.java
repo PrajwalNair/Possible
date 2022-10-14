@@ -27,5 +27,16 @@ public class BengaluruCity extends City {
 		System.out.println(super.population);
 
 	}
+	
+	@Override			//we cant override static methods
+	public void sweet() {
+		System.out.println("sweet is good");
+	}
+	
+	public static void sweet(String name) {
+		System.out.println("sweet is good");
+	}
+	
+	
 
 }
