@@ -7,7 +7,7 @@ import com.xworkz.garage.service.GarageServiceImpl;
 public class GarageDisplay {
 
 	public static void main(String[] args) {
-		GarageDTO garageDTO = new GarageDTO("Cleanse", "Karnataka", "India", "Hubli", 4.7);
+		GarageDTO garageDTO = new GarageDTO(1,"Cleanse", "Karnataka", "India", "Hubli", 4.7);
 		GarageService garageService = new GarageServiceImpl();
 		garageService.validateAndSave(garageDTO);
 

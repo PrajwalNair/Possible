@@ -12,6 +12,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 public class GarageDTO {
+	private int id;
 	private String name;
 	private String state;
 	private String country;

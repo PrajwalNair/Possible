@@ -11,5 +11,9 @@ public class City {
 		this.population = population;
 
 	}
+	
+	public void sweet() {
+		System.out.println("sweet is good");
+	}
 
 }

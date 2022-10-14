@@ -7,7 +7,7 @@ import com.xworkz.property.service.PropertyServiceImpl;
 public class PropertyDisplay {
 
 	public static void main(String[] args) {
-		PropertyDTO propertyDTO = new PropertyDTO("Honey", 25, "Karnataka", "India", "Hubli");
+		PropertyDTO propertyDTO = new PropertyDTO(1,"Honey", 25, "Karnataka", "India", "Hubli");
 		PropertyService propertyService = new PropertyServiceImpl();
 		propertyService.validateAndSave(propertyDTO);
 	}

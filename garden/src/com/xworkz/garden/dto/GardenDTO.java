@@ -12,6 +12,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 public class GardenDTO {
+	private int id;
 	private String name;
 	private double entryFees;
 	private String state;

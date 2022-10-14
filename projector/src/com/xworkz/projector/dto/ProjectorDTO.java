@@ -12,6 +12,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ProjectorDTO {
+	int id;
 	private String type;
 	private String brand;
 	private double price;
