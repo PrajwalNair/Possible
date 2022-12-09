@@ -7,7 +7,7 @@ public class TestCricket extends Cricket {
 
 	public void setGroundType(String groundType) {
 		this.groundType = groundType;
-		System.out.println("Type of ground in Test cricket is " +groundType+ " ------ (TestCricket class)");
+		System.out.println("Type of ground in Test cricket is " + groundType + " ------ (TestCricket class)");
 	}
 
 	@Override
@@ -16,7 +16,10 @@ public class TestCricket extends Cricket {
 		return 1.25;
 	}
 
+	@Override
+	public void check() {
+		System.out.println("child");
 
-		
-		
+	}
+
 }

@@ -24,6 +24,8 @@ public class Collection {
 		int a1 = ref.lastIndexOf(ref);
 		System.out.println(a1);
 
+		ref.remove("Baba");
+
 	}
 
 }
